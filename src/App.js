@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './Footer'
+import Navbar from './Navbar'
+import {Box, Grommet} from "grommet"
+import Content from './Content';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grommet style={{overflow:"hidden"}} full>
+      <Box fill={true}>
+        <Box fill={true} style={{width:"70%", margin:"auto"}}>
+          <Navbar />
+          <Content />
+          <Footer />
+        </Box>
+      </Box>
+      <Box id="stars" />
+    </Grommet>
   );
 }
 
