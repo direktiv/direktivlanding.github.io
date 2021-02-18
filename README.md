@@ -1,1 +1,1 @@
-# Homepage for direktiv.io running on react
+# Homepage for direktiv.io
