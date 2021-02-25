@@ -16,6 +16,9 @@ function Navbar() {
             <Box style={{
                 display: 'block'
             }}>
+                <Box className="navbar-button" onClick={()=>{window.location.href = "https://github.com/vorteil/direktiv"}}>
+                    Github
+                </Box>
                 <Box className="navbar-button" onClick={()=>{window.location.href = "https://docs.direktiv.io"}}>
                     Docs
                 </Box>

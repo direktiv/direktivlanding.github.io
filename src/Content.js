@@ -13,7 +13,7 @@ function Content() {
                 </Box>
                 <Box pad="medium" color="white"  fill={true}> 
                     <p style={{margin: 0, fontSize:"32px", fontWeight:500, color:"white", textAlign:"center"}}>direktiv</p>
-                    <p style={{color:"white", textAlign:"center"}}>Automate any workflow on secure, container-based virtual machines with Direktiv!</p>
+                    <p style={{color:"white", textAlign:"center"}}>Event-Based Serverless Container Workflows with Direktiv!</p>
                 </Box>
             </Box>
             <Box style={{maxHeight:"300px", zIndex: 1000}}>
