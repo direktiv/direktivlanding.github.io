@@ -4,10 +4,11 @@ import {Box, Grommet} from "grommet"
 import Content from './Content';
 
 function App() {
+
   return (
     <Grommet style={{overflow:"hidden"}} full>
       <Box fill={true}>
-        <Box fill={true} style={{width:"70%", margin:"auto"}}>
+        <Box fill={true} style={{ margin:"auto"}}>
           <Navbar />
           <Content />
           <Footer />
