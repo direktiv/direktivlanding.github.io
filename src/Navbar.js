@@ -1,9 +1,9 @@
-import {Box, Menu, ResponsiveContext} from 'grommet'
+import {Box, DropButton, ResponsiveContext} from 'grommet'
 import { useContext } from 'react'
 import {Menu as MenuIcon} from 'grommet-icons'
 import Logo from './logo.png'
 
-function Navbar(props) {
+function Navbar() {
     const size = useContext(ResponsiveContext)
 
     let height = "50px"
@@ -14,10 +14,9 @@ function Navbar(props) {
         case "medium":
             height = "40px"
             break
-            default:
+        default:
             height = "50px"    
     }
-    console.log(size)
     return(
         <Box
             direction='row' // sets the flex direction to row
@@ -33,14 +32,26 @@ function Navbar(props) {
             }}>
                 {size === "small" ? 
                     <>
-                        <Menu
-                            icon={<MenuIcon id="mi-icon" style={{fill:"#b5b5b5", stroke:"#b5b5b5"}}/>}
-                            label={<div id="mi-text" style={{color:'#b5b5b5'}}>Menu</div>}
-                            items={[
-                                {label: "Github", onClick: () => {window.location.href = "https://github.com/vorteil/direktiv"}},
-                                {label: "Docs", onClick: () => {window.location.href = "https://docs.direktiv.io"}},
-                                {label: "Sign In", onClick: () => {window.location.href = "https://wf.direktiv.io"}}
-                            ]}
+                        <DropButton
+                            style={{border: 'none', padding: "0px"}}
+                            label={
+                                <div style={{textAlign:"right", width:"100%", color:"white"}}>
+                                    <MenuIcon id="mi-icon" style={{fill: "white", stroke:"white"}}/>
+                                </div>}
+                            dropAlign={{ top:"bottom"}}
+                            dropContent={
+                                <>
+                                    <Box onClick={()=>{window.location.href = "https://github.com/vorteil/direktiv"}} className="nav-name" style={{padding:"5px"}}>
+                                        Github
+                                    </Box>
+                                    <Box onClick={()=>{window.location.href = "https://docs.direktiv.io"}} className="nav-name" style={{padding:"5px"}}>
+                                        Docs
+                                    </Box>
+                                    <Box onClick={()=>{window.location.href = "https://wf.direktiv.io"}} className="nav-name" style={{padding:"5px"}}>
+                                        Sign In
+                                    </Box>
+                                </>
+                            }
                         />
                     </>
                 :

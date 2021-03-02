@@ -9,7 +9,7 @@ function Footer() {
             </Box>
             <Box>
                 <a href="https://vorteil.io" style={{display:'flex', alignItems:'center', color: 'white', textDecoration: 'none'}}>
-                    <img style={{height:"30px", paddingRight:"3px"}} src={Vorteil}/>
+                    <img alt="vorteil" style={{height:"30px", paddingRight:"3px"}} src={Vorteil}/>
                     Vorteil.io
                 </a>
             </Box>

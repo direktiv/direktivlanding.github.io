@@ -60,3 +60,12 @@ ul.dashed > li:before {
   content: "- ";
   text-indent: -5px;
 }
+
+.nav-name {
+
+}
+
+.nav-name:hover{
+  background: #b4b4b4;
+  cursor: pointer;
+}
