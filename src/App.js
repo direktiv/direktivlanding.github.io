@@ -1,21 +1,31 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './app.css';
+
+
+import React from 'react';
 import Footer from './Footer'
-import Navbar from './Navbar'
-import {Box, Grommet} from "grommet"
+import Nav from './Navbar'
 import Content from './Content';
+import Container from 'react-bootstrap/Container'
+
 
 function App() {
 
   return (
-    <Grommet style={{overflow:"hidden"}} full>
-      <Box fill={true}>
-        <Box fill={true} style={{ margin:"auto"}}>
-          <Navbar />
-          <Content />
-          <Footer />
-        </Box>
-      </Box>
-      <Box id="stars" />
-    </Grommet>
+      <>
+        <div style={{maxHeight: "100vh", overflowY: "auto"}}>
+          <Container id="parent-container" fluid style={{ padding: "0px" }}>
+            <Container fluid style={{ flex: "1" }}>
+              <Nav />
+            </Container>
+            <Content />
+            <Container>
+              <Footer /> 
+            </Container>
+          </Container>
+        </div>
+        <div id="stars" style={{display: "absolute"}} />
+      </>
   );
 }
 
