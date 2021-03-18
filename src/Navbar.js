@@ -17,15 +17,21 @@ function Nav() {
             </div>
             <div className="hide-xs nav-div" style={{ textAlign: "right" }} >
                 <ul className="nav-ul">
-                    <li className="nav-li">
-                        <a href="https://github.com/vorteil/direktiv">GitHub</a>
-                    </li>
-                    <li className="nav-li">
-                        <a href="https://docs.direktiv.io/">Docs</a>
-                    </li>
-                    <li className="nav-li">
-                        <a href="https://wf.direktiv.io/">Log in</a>
-                    </li>
+                    <a href="https://github.com/vorteil/direktiv">
+                        <li className="nav-li">
+                            GitHub
+                        </li>
+                    </a>
+                    <a href="https://docs.direktiv.io/">
+                        <li className="nav-li">
+                            Docs
+                        </li>
+                    </a>
+                    <a href="https://wf.direktiv.io/">
+                        <li className="nav-li">
+                            Log in
+                        </li>
+                    </a>
                 </ul>
             </div>
             <div className="display-xs nav-div" style={{ flexDirection: "row-reverse" }}>
