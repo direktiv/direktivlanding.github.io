@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
+import Button from 'react-bootstrap/Button'
 import ImgCarousel from './carousel'
 
 function Content() {
@@ -23,6 +23,11 @@ function Content() {
                             </p>
                             <p>
                                 <b>Beta now live!</b> 
+                            </p>
+                            <p>
+                                <Button href="https://wf.direktiv.io/" variant="light">
+                                    Register Now
+                                </Button>
                             </p>
                         </div>
                     </div>
