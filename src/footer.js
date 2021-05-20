@@ -1,0 +1,60 @@
+import {FaRegCopyright} from "react-icons/fa"
+import { GrLinkedin, GrMedium, GrTwitter } from "react-icons/gr";
+import Logo from "./img/direktiv-logo.png"
+
+export default function Footer() {
+    var d = new Date();
+    var n = d.getFullYear();
+
+    return(
+        <div className="footer">
+            <div className="company" style={{display: "flex", flexDirection:"column", justifyContent:"center"}}>
+                <div><img alt="direktiv" src={Logo}/></div>
+                <p style={{lineHeight: 2}}>Turning Microservices into Business Logic</p>
+                <div style={{display:"flex", alignItems:"center", gap:"3px", paddingTop:"30px"}} className="copyright">
+                    <FaRegCopyright/> {n} 
+                    <a style={{textDecoration:"none", color:"#2396d8"}} href="https://vorteil.io">Vorteil.io</a>
+                </div>
+            </div>
+            <div className="footer-menu">
+                <div className="overview">
+                    <h4>Overview</h4>
+                    <ul className="footer-list">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#usecases">Use Cases</a></li>
+                        <li><a href="https://github.com/vorteil/direktiv">Github</a></li>
+                    </ul>
+                </div>
+                {/* <div className="f-cases">
+                    <h4>Use Cases</h4>
+                    <ul className="footer-list">
+                        <li><a href="#!">Engagement</a></li>
+                        <li><a href="#!">Intelligence</a></li>
+                        <li><a href="#!">Organization</a></li>
+                    </ul>
+                </div> */}
+                <div className="social">
+                    <h4>Social Media</h4>
+                    <div className="social-icons">
+                        <a href="https://www.linkedin.com/company/vorteil/">
+                            <div className="icon">
+                                <GrLinkedin/>
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/vorteil_io">
+                            <div className="icon">
+                                <GrTwitter/>
+                            </div>
+                        </a>
+                        <a href="https://blog.direktiv.io/">
+                            <div className="icon">
+                                <GrMedium/>
+                            </div>
+                        </a>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    )
+}

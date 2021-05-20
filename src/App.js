@@ -1,31 +1,24 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './app.css';
-
-
-import React from 'react';
-import Footer from './Footer'
-import Nav from './Navbar'
-import Content from './Content';
-import Container from 'react-bootstrap/Container'
-
+// import Branding from "./branding";
+import Cases from "./cases";
+import CTA from "./cta";
+import Easy from "./easy";
+import Footer from "./footer";
+import Landing from "./landing";
+import Opa from "./opa";
+import Points from "./points";
 
 function App() {
-
   return (
-      <>
-        <div style={{maxHeight: "100vh", overflowY: "auto"}}>
-          <Container id="parent-container" fluid style={{ padding: "0px" }}>
-            <Container fluid style={{ flex: "1" }}>
-              <Nav />
-            </Container>
-            <Content />
-            <Container>
-              <Footer /> 
-            </Container>
-          </Container>
-        </div>
-        <div id="stars" style={{display: "absolute"}} />
-      </>
+    <>
+      <Landing/>
+      <Easy/>
+      <Points/>
+      {/* <Branding/> */}
+      <Cases/>
+      <Opa/>
+      <CTA/>
+      <Footer/>
+    </>
   );
 }
 
