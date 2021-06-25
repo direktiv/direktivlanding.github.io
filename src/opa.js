@@ -8,7 +8,7 @@ export default function Opa() {
                 <div className="editions" >
                     <div className="col-edition" style={{flex: 1, background:"white", alignSelf:"stretch", textAlign:"left"}}>
                         <h2 style={{textAlign:"center"}}>Open Source</h2>
-                        <ul className="gray" style={{listStyle:"none", lineHeight: 2, padding: 0}}>
+                        <ul className="gray" style={{listStyle:"circle", lineHeight: 2, padding: "10px"}}>
                             <li>All plugins are open-source, governed and maintained under the open-source license initiative</li>
                             <li>A graphical user interface to allow easy access to run Direktiv.</li>
                             <li>Community Support</li>
@@ -16,13 +16,12 @@ export default function Opa() {
                     </div>
                     <div className="col-edition" style={{flex: 1, background:"white", alignSelf:"stretch", textAlign: "left"}}>
                         <h2 style={{textAlign:"center"}}>Enterprise</h2>
-                        <ul className="gray" style={{listStyle:"none", lineHeight: 2, padding: 0}}>
+                        <ul className="gray" style={{listStyle:"circle", lineHeight: 2, padding: "10px"}}>
                             <li>Support from direktiv.io (24x7 Critical Support, 8x5 Business Support)</li>
                             <li>Authentication and Authorisation using Keycloak and Open Policy Agent</li>
                             <li>Code promotion and workflow unit testing</li>
                             <li>Performance monitoring / tuning (OpenTelemetry tracing)</li>
                             <li>External Logging capabilities</li>
-                            <li>Three custom plugins developed a year</li>
                         </ul>
                     </div>
                 </div>

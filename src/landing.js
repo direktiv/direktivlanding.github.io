@@ -9,6 +9,10 @@ const menuItems = [
         highlighted: false,
     }, 
     {
+        name: "Docs",
+        link: "https://docs.direktiv.io",
+    },
+    {
         name: "Features",
         link: "#features",
         highlighted: false
@@ -56,8 +60,8 @@ export default function Landing() {
                 <main>
                     <div className={isMobile ? "sub-section-mobile":"sub-section"}>
                         <h1>Turning Microservices into Business Logic</h1>
-                        <p className="gray" style={{paddingTop:"30px", paddingBottom:"30px", lineHeight: 2.5}}>
-                            Leverage your microservices, containers or code to build event-driven serverless workflows in a cloud- native platform. No need to re-engineer, re-skill or re-process.                        </p>
+                        <p style={{color:"#8e9092", paddingTop:"30px", paddingBottom:"30px", lineHeight: 2.5, fontSize:"13pt"}}>
+                            Leverage your microservices, containers or code to build event-driven serverless workflows in a cloud-native platform. No need to re-engineer, re-skill or re-process.                        </p>
                         <div className="landing-btn">
                             <div className="consul" ><a style={{textDecoration:"none", color:"white"}} href="https://github.com/vorteil/direktiv">Github</a></div>
                             <div className="started"><a style={{textDecoration:"none", color:"white", display:"flex", alignItems:"center", gap:"4px"}} href="https://docs.direktiv.io/docs/walkthrough/walkthrough.html">Get Started <GrLinkNext className="menu-icon" style={{fontSize:"12pt"}}/></a></div>

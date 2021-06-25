@@ -22,6 +22,7 @@ export default function Footer() {
                     <ul className="footer-list">
                         <li><a href="#features">Features</a></li>
                         <li><a href="#usecases">Use Cases</a></li>
+                        <li><a href="https://docs.direktiv.io">Docs</a></li>
                         <li><a href="https://github.com/vorteil/direktiv">Github</a></li>
                     </ul>
                 </div>

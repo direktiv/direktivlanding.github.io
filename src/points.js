@@ -4,6 +4,7 @@ import OPAT from "./img/opa-telemetry.png"
 import CodeFunctions from "./img/code-functions.png"
 import Cloud from "./img/cloud.png"
 import Events from "./img/cloud-events.png"
+import Direktiv from "./img/direktiv.png"
 
 export default function Points() {
 
@@ -66,6 +67,15 @@ CloudEvents.</p>
                         <a className="consul" href="https://www.openpolicyagent.org/">Open Policy Agent</a>
                         <a className="started" href="https://opentelemetry.io/">Open Telemetry</a>
                     </div>
+                </div>
+            </div>
+            <div className="points-container">
+                <div className="text">
+                    <h2>Direktiv Plugins</h2>
+                    <p className="gray" style={{lineHeight:2}}>We at Direktiv have created <b>50+</b> plugins. Want to run a cloud based CLI in your workflows? Check out our <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/vorteil/direktiv-apps/tree/master/azgo">Azure</a>, <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/vorteil/direktiv-apps/tree/master/gcloud">Google</a> and <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/vorteil/direktiv-apps/tree/master/awsgo">Amazon</a>. You can find the entire range of our plugins at <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/vorteil/direktiv-apps">Github</a>.</p>
+                </div>
+                <div className="img">
+                    <img alt="custom direktiv plugins" src={Direktiv}  style={{width:"100%", height:"auto", maxWidth:"600px"}}/>
                 </div>
             </div>
         </div>

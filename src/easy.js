@@ -71,7 +71,7 @@ export default function Easy() {
                 </div>
                 <div className="section">
                     <div className="easy-icon">
-                        <img alt="simple workflows" src={Simple}/>
+                        <img alt="serverless workflows" src={Simple}/>
                     </div>                  
                     <div className="section-desc" style={{flex:"auto"}}>
                         <div style={{width:"100%"}}>

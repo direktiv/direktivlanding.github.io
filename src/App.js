@@ -18,6 +18,7 @@ function App() {
       <Opa/>
       <CTA/>
       <Footer/>
+      <h1 style={{display:"none"}}>Serverless Workflows</h1>
     </>
   );
 }
