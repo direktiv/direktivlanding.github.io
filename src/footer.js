@@ -24,6 +24,7 @@ export default function Footer() {
                         <li><a href="#usecases">Use Cases</a></li>
                         <li><a href="https://docs.direktiv.io">Docs</a></li>
                         <li><a href="https://github.com/vorteil/direktiv">Github</a></li>
+                        <li><a href="/privacy-policy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
                 {/* <div className="f-cases">
