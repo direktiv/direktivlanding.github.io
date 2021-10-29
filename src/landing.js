@@ -1,6 +1,7 @@
 import { GrLinkNext, GrMenu } from 'react-icons/gr'
 import { useMediaQuery } from 'react-responsive'
 import Logo from "./img/direktiv-logo.png"
+import VLogo from "./img/direktiv-logo.png"
 
 const menuItems = [
     {
@@ -24,7 +25,7 @@ const menuItems = [
     },
     {
         name: "Github",
-        link: "https://github.com/vorteil/direktiv",
+        link: "https://github.com/direktiv/direktiv",
         highlighted: true
     }
 ]
@@ -61,9 +62,16 @@ export default function Landing() {
                     <div className={isMobile ? "sub-section-mobile":"sub-section"}>
                         <h1>Turning Microservices into Business Logic</h1>
                         <p style={{color:"#8e9092", paddingTop:"30px", paddingBottom:"30px", lineHeight: 2.5, fontSize:"13pt"}}>
-                            Leverage your microservices, containers or code to build event-driven serverless workflows in a cloud-native platform. No need to re-engineer, re-skill or re-process.                        </p>
+                            Leverage your microservices, containers or code to build event-driven serverless workflows in a cloud-native platform. No need to re-engineer, re-skill or re-process.
+                        </p>
+                        <div style={{display:"flex", flexDirection:"column", justifyContent:"flex-end", alignItems:"flex-end"}}>
+                            <p style={{color:"#8e9092",  fontSize:"11pt", marginRight:"120px", marginBottom:"0px", marginTop:"0px", fontStyle:"italic"}}>
+                                Created by
+                                </p>
+                                <a href="https://direktiv.io"><img src={VLogo}  style={{width:"200px"}}/></a>
+                            </div>
                         <div className="landing-btn">
-                            <div className="consul" ><a style={{textDecoration:"none", color:"white"}} href="https://github.com/vorteil/direktiv">Github</a></div>
+                            <div className="consul" ><a style={{textDecoration:"none", color:"white"}} href="https://github.com/direktiv/direktiv">Github</a></div>
                             <div className="started"><a style={{textDecoration:"none", color:"white", display:"flex", alignItems:"center", gap:"4px"}} href="https://docs.direktiv.io/docs/walkthrough/walkthrough.html">Get Started <GrLinkNext className="menu-icon" style={{fontSize:"12pt"}}/></a></div>
                         </div>
                     </div>

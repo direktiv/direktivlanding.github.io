@@ -20,7 +20,7 @@ export default function Points() {
 can use in the workflows, because the components are run as industry standard containers.</p>
                     <div className="landing-btn" style={{paddingTop:"30px"}}>
                         <a className="consul" href="https://blog.direktiv.io/direktiv-serverless-custom-plugins-in-go-java-node-python-or-rust-or-anything-1b41a257af91">Learn More</a>
-                        <a className="started" href="https://github.com/vorteil/direktiv-apps/tree/master/examples">Get Started <GrLinkNext  style={{fontSize:"12pt"}}/></a>
+                        <a className="started" href="https://github.com/direktiv/direktiv-apps/tree/master/examples">Get Started <GrLinkNext  style={{fontSize:"12pt"}}/></a>
                     </div>
                 </div>
                 <div className="img">
@@ -72,7 +72,7 @@ CloudEvents.</p>
             <div className="points-container">
                 <div className="text">
                     <h2>Direktiv Plugins</h2>
-                    <p className="gray" style={{lineHeight:2}}>We at Direktiv have created <b>50+</b> plugins. Want to run a cloud based CLI in your workflows? Check out our <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/vorteil/direktiv-apps/tree/master/azgo">Azure</a>, <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/vorteil/direktiv-apps/tree/master/gcloud">Google</a> and <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/vorteil/direktiv-apps/tree/master/awsgo">Amazon</a>. You can find the entire range of our plugins at <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/vorteil/direktiv-apps">Github</a>.</p>
+                    <p className="gray" style={{lineHeight:2}}>We at Direktiv have created <b>50+</b> plugins. Want to run a cloud based CLI in your workflows? Check out our <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/direktiv/direktiv-apps/tree/master/azgo">Azure</a>, <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/direktiv/direktiv-apps/tree/master/gcloud">Google</a> and <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/direktiv/direktiv-apps/tree/master/awsgo">Amazon</a>. You can find the entire range of our plugins at <a style={{color:"#2396d8", textDecoration:"none"}} href="https://github.com/direktiv/direktiv-apps">Github</a>.</p>
                 </div>
                 <div className="img">
                     <img alt="custom direktiv plugins" src={Direktiv}  style={{width:"100%", height:"auto", maxWidth:"600px"}}/>

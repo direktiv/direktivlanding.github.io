@@ -1,6 +1,7 @@
 import {FaRegCopyright} from "react-icons/fa"
 import { GrLinkedin, GrMedium, GrTwitter } from "react-icons/gr";
 import Logo from "./img/direktiv-logo.png"
+import VLogo from "./vorteil-logo.png"
 
 export default function Footer() {
     var d = new Date();
@@ -11,9 +12,13 @@ export default function Footer() {
             <div className="company" style={{display: "flex", flexDirection:"column", justifyContent:"center"}}>
                 <div><img alt="direktiv" src={Logo}/></div>
                 <p style={{lineHeight: 2}}>Turning Microservices into Business Logic</p>
-                <div style={{display:"flex", alignItems:"center", gap:"3px", paddingTop:"30px"}} className="copyright">
+               
+                <div style={{display:"flex",  flexDirection:"column", gap:"3px", paddingTop:"30px"}} className="copyright">
+                    <img src={VLogo} style={{width:"120px", paddingBottom:"20px"}}/>
+                    <div style={{textAlign:"left", margin:"0"}}>
                     <FaRegCopyright/> {n} 
-                    <a style={{textDecoration:"none", color:"#2396d8"}} href="https://vorteil.io">Vorteil.io</a>
+                    <a style={{textDecoration:"none", color:"#2396d8"}} href="https://vorteil.io">vorteil.io</a>
+                    </div>
                 </div>
             </div>
             <div className="footer-menu">
@@ -23,7 +28,7 @@ export default function Footer() {
                         <li><a href="#features">Features</a></li>
                         <li><a href="#usecases">Use Cases</a></li>
                         <li><a href="https://docs.direktiv.io">Docs</a></li>
-                        <li><a href="https://github.com/vorteil/direktiv">Github</a></li>
+                        <li><a href="https://github.com/direktiv/direktiv">Github</a></li>
                         <li><a href="/privacy-policy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
@@ -38,12 +43,12 @@ export default function Footer() {
                 <div className="social">
                     <h4>Social Media</h4>
                     <div className="social-icons">
-                        <a href="https://www.linkedin.com/company/vorteil/">
+                        <a href="https://www.linkedin.com/company/direktiv/">
                             <div className="icon">
                                 <GrLinkedin/>
                             </div>
                         </a>
-                        <a href="https://twitter.com/vorteil_io">
+                        <a href="https://twitter.com/direktivSocial">
                             <div className="icon">
                                 <GrTwitter/>
                             </div>
