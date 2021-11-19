@@ -67,7 +67,7 @@ export default function Landing() {
                   
                         <div className="landing-btn">
                             <div className="consul" ><a style={{textDecoration:"none", color:"white"}} href="https://github.com/direktiv/direktiv">Github</a></div>
-                            <div className="started"><a style={{textDecoration:"none", color:"white", display:"flex", alignItems:"center", gap:"4px"}} href="https://docs.direktiv.io/docs/walkthrough/walkthrough.html">Get Started <GrLinkNext className="menu-icon" style={{fontSize:"12pt"}}/></a></div>
+                            <div className="started"><a style={{textDecoration:"none", color:"white", display:"flex", alignItems:"center", gap:"4px"}} href="https://docs.direktiv.io/latest/getting_started/helloworld">Get Started <GrLinkNext className="menu-icon" style={{fontSize:"12pt"}}/></a></div>
                         </div>
                     </div>
                 </main>

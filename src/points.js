@@ -37,7 +37,7 @@ can use in the workflows, because the components are run as industry standard co
 vendors or cloud platforms. It’s cloud and platform agnostic and gives a customer freedom of choice.</p>
                     <div className="landing-btn" style={{paddingTop:"30px"}}>
                     <a className="consul" href="https://aws.plainenglish.io/direktiv-v0-2-1-deploying-on-aws-eks-or-docker-and-new-ui-c94741d7d74b">Learn More</a>
-                        <a className="started" href="https://docs.direktiv.io/docs/install.html">Get Started <GrLinkNext  style={{fontSize:"12pt"}}/></a>
+                        <a className="started" href="https://docs.direktiv.io/latest/installation/">Get Started <GrLinkNext  style={{fontSize:"12pt"}}/></a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ starting or acting based on conditions and events within the environment, Direkt
 CloudEvents.</p>
                     <div className="landing-btn" style={{paddingTop:"30px"}}>
                         <a className="consul" href="https://blog.direktiv.io/direktiv-event-driven-serverless-container-workflows-introduction-8e6bb4b1a54a">Learn More</a>
-                        <a className="started" href="https://docs.direktiv.io/docs/walkthrough/events.html">Get Started <GrLinkNext  style={{fontSize:"12pt"}}/></a>
+                        <a className="started" href="https://docs.direktiv.io/latest/getting_started/events/">Get Started <GrLinkNext  style={{fontSize:"12pt"}}/></a>
                     </div>
                 </div>
                 <div className="img">

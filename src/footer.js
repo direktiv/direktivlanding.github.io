@@ -48,7 +48,7 @@ export default function Footer() {
                                 <GrLinkedin/>
                             </div>
                         </a>
-                        <a href="https://twitter.com/direktivSocial">
+                        <a href="https://twitter.com/direktiv_io">
                             <div className="icon">
                                 <GrTwitter/>
                             </div>
