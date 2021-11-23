@@ -16,7 +16,7 @@ export default function Blog() {
             let resp = await fetch(mediumURL)
             let json = await resp.json()
             let arr = []
-            for(var i=0; i < 3; i++) {
+            for(var i=0; i < 4; i++) {
                 arr.push(json.items[i])
             }
             console.log(json)
