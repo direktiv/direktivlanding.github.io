@@ -1,4 +1,5 @@
 // import Branding from "./branding";
+import Blog from "./blog";
 import Cases from "./cases";
 import CTA from "./cta";
 import Easy from "./easy";
@@ -16,6 +17,8 @@ function App() {
       {/* <Branding/> */}
       <Cases/>
       <Opa/>
+      <Blog/>
+
       <CTA/>
       <Footer/>
       <h1 style={{display:"none"}}>Serverless Workflows</h1>
