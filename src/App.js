@@ -13,11 +13,12 @@ function App() {
     <>
       <Landing/>
       <Easy/>
+      <Blog/>
+
       <Points/>
       {/* <Branding/> */}
       <Cases/>
       <Opa/>
-      <Blog/>
 
       <CTA/>
       <Footer/>
