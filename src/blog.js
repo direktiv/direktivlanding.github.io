@@ -9,7 +9,7 @@ export default function Blog() {
     const [data, setData] = useState(null)
     const [items, setItems] = useState([])
 
-    const mediumURL = "https://api.rss2json.com/v1/api.json?rss_url=https://blog.direktiv.io/feed";
+    const mediumURL = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@wilhelm-wonigkeit";
 
     useEffect(()=>{
         async function getData() {
